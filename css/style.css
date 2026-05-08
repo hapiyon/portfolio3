@@ -300,6 +300,51 @@ ul {
   top: 20%;
 }
 
+/* ===== こんな方におすすめセクション ===== */
+.for-whom__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.for-whom__card {
+  background: var(--color-card-bg);
+  border-radius: var(--radius);
+  padding: 28px 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--color-border);
+  text-align: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.for-whom__card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.for-whom__icon {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.for-whom__card p {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .for-whom__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .for-whom__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== Aboutセクション ===== */
 .about-body {
   max-width: 680px;
