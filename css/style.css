@@ -156,10 +156,18 @@ ul {
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-weight: 700;
   font-size: 1.1rem;
   color: var(--color-primary-dark);
   letter-spacing: 0.03em;
+}
+
+.nav-logo-img {
+  height: 36px;
+  width: 36px;
 }
 
 .nav-links {
