@@ -169,6 +169,8 @@ ul {
   height: 36px;
   width: 36px;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -282,7 +284,7 @@ ul {
 .hero-logo-right {
   position: absolute;
   right: 10%;
-  top: calc(50% - 130px);
+  top: calc(50% - 98px);
   z-index: 1;
   width: 260px;
   height: 260px;
