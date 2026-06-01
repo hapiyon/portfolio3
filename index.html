@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="個人事業主・小規模事業者向けにホームページ制作を行っています。専門用語なし・丁寧対応・相談無料。デザインからコーディングまで一人でお任せください。" />
+  <link rel="canonical" href="https://hapiyon.github.io/portfolio3/" />
+  <meta property="og:title" content="大内 駿 | Web Portfolio" />
+  <meta property="og:description" content="個人事業主・小規模事業者向けにホームページ制作を行っています。専門用語なし・丁寧対応・相談無料。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hapiyon.github.io/portfolio3/" />
+  <meta property="og:image" content="https://hapiyon.github.io/portfolio3/assets/logo.png" />
+  <meta property="og:site_name" content="Ouchi Web Works" />
+  <title>大内 駿 | Web Portfolio</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="logo" href="#top" aria-label="トップへ戻る">
+      <img src="assets/logo-transparent.png" alt="SHUN Web Works ロゴ" class="logo-mark">
+      <span class="logo-text">SHUN<br><em>Web Works</em></span>
+    </a>
+
+    <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="global-nav" aria-label="メインナビゲーション">
+      <a href="#about">About</a>
+      <a href="#works">Works</a>
+      <a href="#service">Service</a>
+      <a href="#flow">Flow</a>
+      <a href="#contact" class="nav-contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Web creator for small business</p>
+        <h1 id="hero-title">
+          <span class="hero-hello" aria-label="Hello"
+            ><span class="char" style="--i:0">H</span
+            ><span class="char" style="--i:1">e</span
+            ><span class="char" style="--i:2">l</span
+            ><span class="char" style="--i:3">l</span
+            ><span class="char" style="--i:4">o</span
+          ></span><br>
+          <span class="hero-name"
+            ><span id="typewriter-text"></span
+            ><span class="typewriter-cursor" aria-hidden="true">|</span
+          ></span>
+        </h1>
+        <p class="hero-lead">
+          ホームページ制作、LP制作、小規模アプリケーション開発、<br>
+          相談サポートなどを行っています。<br>
+          なんでも気軽にご相談ください。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#works">制作実績を見る</a>
+          <a class="button secondary" href="#contact">相談してみる</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Web制作を表す装飾イラスト">
+        <div class="floating-card code-card">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <pre>&lt;section&gt;
+  想いを届ける
+  Webサイト制作
+&lt;/section&gt;</pre>
+        </div>
+        <div class="floating-card site-card">
+          <div class="browser-bar"></div>
+          <div class="site-hero"></div>
+          <div class="site-lines"><span></span><span></span><span></span></div>
+        </div>
+        <div class="phone-card">
+          <span></span><span></span><span></span>
+        </div>
+        <svg class="doodle doodle-1" viewBox="0 0 160 160" aria-hidden="true">
+          <path d="M24 78C18 41 56 19 88 31c28 10 51 38 43 69-9 36-51 44-79 31-20-10-25-30-28-53Z" />
+        </svg>
+        <svg class="doodle doodle-2" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M18 55c18-28 37-38 56-22 17 14 8 42-13 50-21 8-59-2-43-28Z" />
+        </svg>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="大切にしていること">
+      <div class="marquee-track">
+        <span>丁寧なヒアリング</span>
+        <span>スマホ対応</span>
+        <span>わかりやすい説明</span>
+        <span>小さな事業に寄り添う</span>
+        <span>丁寧な仕上がり</span>
+        <span>丁寧なヒアリング</span>
+        <span>スマホ対応</span>
+        <span>わかりやすい説明</span>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About</p>
+      </div>
+      <div class="about-grid">
+        <article class="profile-card reveal">
+          <div class="profile-portrait">
+            <img src="assets/logo-transparent.png" alt="SHUN ロゴ" class="portrait-logo" />
+          </div>
+          <h3>SHUN</h3>
+          <p>個人事業主・小規模事業者向けのWebサイト制作を行っています。</p>
+          <ul class="tag-list" aria-label="スキル">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+          </ul>
+        </article>
+
+        <div class="about-text reveal">
+          <p>
+            「段取り力」「確認力」「相手に合わせて説明する力」を大切に、お客様のビジネスに合ったWebサイトを制作します。
+          </p>
+          <p>
+            専門用語をできるだけ使わず、「何を載せればいいか」から一緒に考えます。
+          </p>
+          <div class="about-note">
+            <span>目指すサイト</span>
+            <strong>見た目だけでなく、お問い合わせにつながるWebサイト。</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section-pad" id="works" aria-labelledby="works-title">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Works</p>
+        <h2 id="works-title">制作実績・サンプル</h2>
+        <p>実案件・学習制作・今後追加予定の作品を、見せ方まで含めて整理しています。</p>
+      </div>
+
+      <div class="work-list">
+        <article class="work-card reveal">
+          <div class="work-thumb paint-site">
+            <span class="work-badge">Website</span>
+          </div>
+          <div class="work-body">
+            <p class="work-category">個人塗装業者サイト / 制作中</p>
+            <h3>離島の塗装業者ホームページ</h3>
+            <p>外壁塗装・屋根塗装・防水工事などを、地域のお客様にわかりやすく伝える集客サイト。</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb portfolio-site">
+            <span class="work-badge">Portfolio</span>
+          </div>
+          <div class="work-body">
+            <p class="work-category">自己紹介 / ブランディング</p>
+            <h3>ポートフォリオサイト</h3>
+            <p>スキル・制作姿勢・対応できることを、初めて見る人にも伝わるように設計したサイト。</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb python-tool">
+            <span class="work-badge">Python</span>
+          </div>
+          <div class="work-body">
+            <p class="work-category">業務効率化 / 学習サンプル</p>
+            <h3>予定表・リスト自動化ツール</h3>
+            <p>PythonでExcelや表作成の自動化を行うサンプル。現場仕事の効率化にも応用予定。</p>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb cafe-site">
+            <span class="work-badge">Website</span>
+          </div>
+          <div class="work-body">
+            <p class="work-category">架空カフェサイト / サンプル</p>
+            <h3>架空カフェホームページ「CAFE HIBI」</h3>
+            <p>日常に溶け込む小さなカフェのブランドサイト。落ち着いたブラウン系カラーで、コンセプト・メニュー・アクセスを1ページにまとめました。</p>
+            <a class="work-link" href="../制作実績/架空HP/カフェHP/index.html" target="_blank" rel="noopener">サイトを見る →</a>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb restaurant-site">
+            <span class="work-badge">Website</span>
+          </div>
+          <div class="work-body">
+            <p class="work-category">架空レストランサイト / サンプル</p>
+            <h3>架空レストランホームページ「CASUAL TABLE」</h3>
+            <p>カジュアルなイタリアンレストランのホームページ。温かみのあるオレンジ系カラーで、メニュー・ギャラリー・予約動線を整えたサイト。</p>
+            <a class="work-link" href="../制作実績/架空HP/レストランHP/index.html" target="_blank" rel="noopener">サイトを見る →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="service section-pad" id="service" aria-labelledby="service-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Service</p>
+        <h2 id="service-title">できること</h2>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <span class="service-number">01</span>
+          <div class="service-card-body">
+            <h3>ホームページ制作</h3>
+            <p>会社紹介・店舗紹介・サービス案内など、小規模サイトを見やすく制作します。</p>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">02</span>
+          <div class="service-card-body">
+            <h3>LP制作</h3>
+            <p>商品・サービスの魅力を1ページで伝え、お問い合わせにつなげる構成を考えます。</p>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">03</span>
+          <div class="service-card-body">
+            <h3>スマホ対応・修正</h3>
+            <p>既存ページの見た目調整、スマホ表示の改善、文章・画像の差し替えに対応します。</p>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">04</span>
+          <div class="service-card-body">
+            <h3>相談サポート</h3>
+            <p>「何を載せたらいいかわからない」という段階から、内容整理をお手伝いします。</p>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-number">05</span>
+          <div class="service-card-body">
+            <h3>Python自動化ツール制作</h3>
+            <p>Excelデータの整形・集計、フォルダ内ファイルの自動整理、価格や在庫の定期監視など、日常業務を自動化する小規模ツールを制作します。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="flow section-pad" id="flow" aria-labelledby="flow-title">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Flow</p>
+        <h2 id="flow-title">制作の流れ</h2>
+      </div>
+
+      <ol class="flow-list">
+        <li class="reveal">
+          <span>1</span>
+          <h3>相談</h3>
+          <p>目的・ターゲット・載せたい内容を確認します。</p>
+        </li>
+        <li class="reveal">
+          <span>2</span>
+          <h3>構成</h3>
+          <p>ページ構成・必要な文章・見せ方を整理します。</p>
+        </li>
+        <li class="reveal">
+          <span>3</span>
+          <h3>制作</h3>
+          <p>HTML/CSSを中心に、スマホでも見やすく制作します。</p>
+        </li>
+        <li class="reveal">
+          <span>4</span>
+          <h3>確認</h3>
+          <p>表示崩れや文章を確認し、必要に応じて修正します。</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="price section-pad" id="price" aria-labelledby="price-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Price</p>
+        <h2 id="price-title">料金目安</h2>
+      </div>
+      <ul class="price-list">
+        <li class="price-item reveal">
+          <h3>ホームページ制作</h3>
+          <span class="price-amount">¥20,000〜</span>
+        </li>
+        <li class="price-item reveal">
+          <h3>LP制作</h3>
+          <span class="price-amount">¥10,000〜</span>
+        </li>
+        <li class="price-item reveal">
+          <h3>スマホ対応・修正</h3>
+          <span class="price-amount">¥5,000〜</span>
+        </li>
+        <li class="price-item reveal">
+          <h3>Python自動化ツール制作</h3>
+          <div class="price-amount-group">
+            <span class="price-amount">¥10,000〜</span>
+            <small class="price-tier-note">内容により変動します</small>
+          </div>
+        </li>
+        <li class="price-item reveal">
+          <h3>相談サポート</h3>
+          <span class="price-amount is-free">無料</span>
+        </li>
+      </ul>
+      <p class="price-note">※ 料金はすべて税込・目安です。内容により変動する場合があります。</p>
+    </section>
+
+    <section class="news section-pad" aria-labelledby="news-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">News</p>
+        <h2 id="news-title">お知らせ</h2>
+      </div>
+      <div class="news-list reveal">
+        <a href="#contact">
+          <time datetime="2026-05-28">2026.05.28</time>
+          <span>ポートフォリオサイトのデザインを新しくしました。</span>
+        </a>
+        <a href="#works">
+          <time datetime="2026-05-15">2026.05.15</time>
+          <span>Web制作・Python学習を継続中です。</span>
+        </a>
+        <a href="#service">
+          <time datetime="2026-05-01">2026.05.01</time>
+          <span>個人事業主・小規模事業者向けサイト制作を準備中です。</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">まずは、気軽に<br>相談してください。</h2>
+          <p>
+            「ホームページを作りたいけど、何から決めたらいいかわからない」
+            という段階でも大丈夫です。目的整理から一緒に考えます。
+          </p>
+        </div>
+        <form class="contact-form" action="https://formspree.io/f/mvzlqloo" method="POST">
+          <label>
+            お名前
+            <input type="text" name="name" placeholder="お名前を入力" required />
+          </label>
+          <label>
+            会社・団体名<span class="form-optional">（任意）</span>
+            <input type="text" name="company" placeholder="例：株式会社〇〇 / 個人の方は空欄でOK" />
+          </label>
+          <label>
+            メールアドレス
+            <input type="email" name="email" placeholder="example@mail.com" required />
+          </label>
+          <label>
+            WebサイトURL<span class="form-optional">（任意）</span>
+            <input type="url" name="website" placeholder="例：https://example.com / なければ空欄でOK" />
+          </label>
+          <fieldset class="service-chips">
+            <legend>ご依頼の種類</legend>
+            <div class="service-chips-group">
+              <label class="chip-label">
+                <input type="radio" name="service" value="ホームページ制作" required />
+                <span>ホームページ制作</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="service" value="LP制作" required />
+                <span>LP制作</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="service" value="スマホ対応・修正" required />
+                <span>スマホ対応・修正</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="service" value="Python自動化ツール制作" required />
+                <span>Python自動化ツール制作</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="service" value="相談サポート" required />
+                <span>相談サポート</span>
+              </label>
+            </div>
+          </fieldset>
+          <label>
+            ご予算（目安）
+            <select name="budget">
+              <option value="未定・ご相談">未定・ご相談</option>
+              <option value="〜¥10,000">〜¥10,000</option>
+              <option value="¥10,000〜¥30,000">¥10,000〜¥30,000</option>
+              <option value="¥30,000〜¥50,000">¥30,000〜¥50,000</option>
+              <option value="¥50,000〜">¥50,000〜</option>
+            </select>
+          </label>
+          <label>
+            ご希望納期
+            <select name="deadline">
+              <option value="未定・ご相談">未定・ご相談</option>
+              <option value="1ヶ月以内">1ヶ月以内</option>
+              <option value="2〜3ヶ月">2〜3ヶ月</option>
+              <option value="3ヶ月以上">3ヶ月以上</option>
+            </select>
+          </label>
+          <fieldset class="service-chips">
+            <legend>実績公開可否</legend>
+            <div class="service-chips-group">
+              <label class="chip-label">
+                <input type="radio" name="portfolio_ok" value="公開可" required />
+                <span>公開可</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="portfolio_ok" value="公開不可" required />
+                <span>公開不可</span>
+              </label>
+              <label class="chip-label">
+                <input type="radio" name="portfolio_ok" value="要相談" required />
+                <span>要相談</span>
+              </label>
+            </div>
+          </fieldset>
+          <div class="form-field">
+            <div class="form-field-header">
+              <span class="form-field-label">ご依頼内容詳細<span class="form-optional">（任意）</span></span>
+              <button type="button" class="btn-example" id="example-btn">記入例を見る</button>
+            </div>
+            <div id="example-box" class="details-example" hidden>
+              <p>【記入例】</p>
+              <ul>
+                <li>制作したいもの：飲食店のホームページ</li>
+                <li>掲載したい内容：メニュー、店舗情報、アクセス</li>
+                <li>参考にしたいサイト：https://example.com（なければ空欄）</li>
+                <li>その他ご要望：スマホ対応希望、予約フォームも検討中</li>
+              </ul>
+            </div>
+            <textarea name="details" rows="6" placeholder="ご依頼の内容を詳しく入力してください"></textarea>
+          </div>
+          <button class="button primary" type="submit">送信する</button>
+          <p class="form-note">※ 送信後、数日以内にメールでご返信します。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#top">
+      <img src="assets/logo-transparent.png" alt="SHUN Web Works ロゴ" class="logo-mark">
+      <span class="logo-text">SHUN<br><em>Web Works</em></span>
+    </a>
+    <p>小さな事業の想いを、伝わるWebサイトへ。</p>
+    <small>&copy; 2026 SHUN. All Rights Reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
